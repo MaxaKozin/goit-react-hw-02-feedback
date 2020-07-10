@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px;
+  border: none;
+  background-color: #99d;
+  border-radius: 8px;
+  color: #eef;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 1px 1px 10px #aac;
+  outline: none;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:active {
+  background-color: #55a;
+}
