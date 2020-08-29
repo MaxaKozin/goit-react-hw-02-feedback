@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './Section.module.css';
+
+import s from './Section.module.css';
 
 const Section = ({ title, children }) => (
-  <section className={styles.Section}>
-    <h2 className={styles.heading}>
+  <section className={s.Section}>
+    <h2 className={s.heading}>
       {title}
     </h2>
     {children}
